@@ -85,3 +85,31 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f
 
 /* Connect Page */
 .connect-page { text-align: center; padding: 2rem 1rem; }
+
+.connect-home {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f9fafb;
+}
+
+.connect-home h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.connect-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.connect-icons a {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.connect-icons a:hover {
+  color: #2563eb;
+}

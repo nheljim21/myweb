@@ -12,3 +12,9 @@ if (feedbackForm) {
     feedbackForm.reset();
   });
 }
+function toggleMenu() {
+  const nav = document.querySelector('.nav-links');
+  const overlay = document.querySelector('.overlay');
+  nav.classList.toggle('active');
+  overlay.classList.toggle('active');
+}

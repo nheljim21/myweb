@@ -27,6 +27,44 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f
 .update-list ul { padding-left: 1.2rem; }
 .update-list li { margin-bottom: 0.5rem; }
 
+/* Feedback Page */
+.feedback-page h2 { text-align: center; margin-bottom: 1rem; color: #2c3e50; }
+.feedback-page .intro { text-align: center; margin-bottom: 2rem; font-style: italic; }
+
+.feedback-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.feedback-form label { font-weight: bold; }
+.feedback-form input, 
+.feedback-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.feedback-form button {
+  align-self: flex-start;
+}
+
+.feedback-page .note {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+}
+
+
 /* Vision Page */
 .vision-page { background: #f5f9ff; padding: 2rem 1rem; }
 .vision-page h2 { text-align: center; margin-bottom: 2rem; font-size: 2rem; color: #2563eb; }

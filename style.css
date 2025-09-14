@@ -115,3 +115,15 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f
   color: #2563eb;
   transform: scale(1.2);
 }
+
+/* Connect page (left aligned) */
+.connect-page {
+  text-align: left;
+}
+
+.connect-page .connect-icons {
+  justify-content: flex-start; /* icons align left */
+  gap: 1.2rem;                 /* space between icons */
+  margin: 1rem 0;
+  font-size: 2rem;             /* slightly smaller than homepage */
+}

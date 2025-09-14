@@ -11,4 +11,18 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f
 .card h3 { margin-top: 0; }
 .footer { text-align: center; padding: 1.5rem; background: #f0f0f0; margin-top: 3rem; }
 .page { max-width: 800px; margin: 3rem auto; padding: 0 1rem; }
-```
+
+.updates-page { background: #fffdf7; padding: 2rem 1rem; }
+.updates-page h2 { text-align: center; margin-bottom: 2rem; font-size: 2rem; color: #e65100; }
+.updates-page .intro { text-align: center; font-style: italic; margin-bottom: 2rem; }
+
+.update-list {
+  background: #fff3e0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: 700px;
+  margin: auto;
+}
+.update-list ul { padding-left: 1.2rem; }
+.update-list li { margin-bottom: 0.5rem; }

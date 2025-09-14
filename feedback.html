@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="vision.html">Vision</a></li>
+        <li><a href="updates.html">Updates</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="socials.html">Socials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page feedback-page">
+    <h2>Feedback</h2>
+    <p class="intro">I’d love to hear from you! Share your thoughts, suggestions, or constructive criticism below.</p>
+
+    <form class="feedback-form">
+      <label for="name">Name (optional)</label>
+      <input type="text" id="name" name="name" placeholder="Your name">
+
+      <label for="email">Email (optional)</label>
+      <input type="email" id="email" name="email" placeholder="Your email">
+
+      <label for="message">Your Feedback</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your feedback here..." required></textarea>
+
+      <button type="submit" class="btn">Send Feedback</button>
+    </form>
+
+    <p class="note">*This is a demo form. To make it work, you’ll need to connect it to a service like <a href="https://formspree.io/" target="_blank">Formspree</a> or <a href="https://forms.google.com/" target="_blank">Google Forms</a>.</p>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nheljim Edis. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

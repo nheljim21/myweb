@@ -127,3 +127,47 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f
   margin: 1rem 0;
   font-size: 2rem;             /* slightly smaller than homepage */
 }
+
+/* ============================
+   RESPONSIVE STYLES
+   ============================ */
+@media (max-width: 768px) {
+  /* Nav (hamburger menu is already set, keep what you have) */
+
+  /* Hero Section */
+  .hero {
+    padding: 2.5rem 1rem;
+  }
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+
+  /* Quick Sections (cards) */
+  .quick-sections {
+    grid-template-columns: 1fr; /* stack vertically */
+    gap: 1rem;
+  }
+
+  /* Product Grid */
+  .product-grid {
+    grid-template-columns: 1fr; /* 1 product per row */
+  }
+
+  /* Connect Section */
+  .connect-icons {
+    justify-content: flex-start; /* icons align under text */
+    gap: 1rem;
+  }
+
+  .connect-icons a {
+    font-size: 2rem; /* slightly smaller icons */
+  }
+
+  /* Page Content */
+  .page {
+    padding: 1rem;
+  }
+}
